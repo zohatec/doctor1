@@ -93,7 +93,7 @@ h1,h2,h3,h4{line-height:1.3}
   font-size:.95rem;font-weight:600;transition:.3s;
 }
 .icon-btn:hover{border-color:var(--primary);color:var(--primary);transform:translateY(-2px)}
-.lang-btn{width:auto;padding:0 13px}
+.lang-btn{width:46px;padding:0;font-weight:700;letter-spacing:.5px;font-size:1rem}
 #darkBtn .fa-sun{display:none}
 html.dark #darkBtn .fa-sun{display:block}
 html.dark #darkBtn .fa-moon{display:none}
@@ -655,11 +655,10 @@ html.dark .mode-chip{color:#fbbf24}
   .brand-tx b{font-size:.95rem}
   .nav-actions{gap:6px}
   .icon-btn{width:38px;height:38px;border-radius:10px}
-  .lang-btn{padding:0 11px}
+  .lang-btn{width:38px;padding:0;letter-spacing:0;font-size:.9rem}
 }
 @media (max-width:360px){
-  .lang-btn span{display:none}
-  .lang-btn{padding:0}
+  .lang-btn{width:34px;font-size:.85rem}
   .brand-tx b{font-size:.9rem}
 }
 @media (max-width:400px){
