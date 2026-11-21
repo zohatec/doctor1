@@ -38,7 +38,7 @@ function applyI18n() {
   $$('[data-i18n-title]').forEach((el) => { el.title = t(el.dataset.i18nTitle); });
   $$('[data-i18n-alt]').forEach((el) => { el.alt = t(el.dataset.i18nAlt); });
   const lb = $('#langBtnText');
-  if (lb) lb.textContent = LANG === 'bn' ? 'EN' : 'বাংলা';
+  if (lb) lb.textContent = LANG === 'bn' ? 'EN' : 'BN';
   /* খোলা FAQ থাকলে উচ্চতা পুনর্গণনা */
   $$('.faq-item.open').forEach((it) => {
     const a = $('.faq-a', it);
